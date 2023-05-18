@@ -1,0 +1,92 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;}
+.cantainer{
+	width:90%;
+	margin:0 auto;}
+.col1{
+	
+	width:33.33%;
+	padding:0 15px;
+	
+}
+.row{
+
+display:flex;
+gap:2%;}
+
+.image img{
+
+width:100%;}
+
+
+.img-position{
+position:relative;}
+	.img-position span h5{
+	padding:5px;	
+	position:absolute;
+	right:0;
+	bottom:0px;}
+	h5{
+	background-color:orange;
+	color:white;}
+span i{
+	color:orange;}
+	.line{
+	border-bottom:1px solid #ccc;}
+.sub{
+	
+	background-color:white;
+	border:1px solid white;
+
+	border-top:0;
+	padding:20px 30px;}
+.sub div span{
+	line-height:50px;}
+.line span i{
+padding:0 8px;}
+a{
+	font-size:20px;
+	color:black;
+	text-decoration:none;}
+nav{
+	padding:20px 0;}
+.nav{
+	padding:20px 0px;}
+.col1:hover .image{
+	transform:scale(1.2);
+	transition:all 1.5s ease-in-out;}
+	
+.col1:hover h2,.col1:hover a{
+				color:orange;}
+.img-position{
+			overflow:hidden;}
+.parent{
+	border:1px solid white;
+	box-shadow: 0 0 10px #ccc;}
+.title{
+	text-align:center;
+	padding:40px;}
+.title h1{
+	position:relative;
+	}
+.title h1::after{
+	
+		content:"";
+		width:60px;
+	border:2px solid orange;
+	position:absolute;
+	top:50%;
+	right:35%;
+	}
+	.title h1::before{
+	
+	content:"";
+	width:60px;
+	border:2px solid orange;
+	position:absolute;
+	top:50%;
+	left:35%;
+	}
+	
